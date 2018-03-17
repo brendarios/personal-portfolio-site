@@ -1,0 +1,138 @@
+
+body {
+  margin:0;
+  padding:0;
+  height:50%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: Special Elite;
+}
+
+/* Styling for nav  */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #52527a;
+  font-family: Arial;
+  color: white;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
+  margin: 4;
+}
+
+nav > ul > li {
+  padding: 0 40px;
+  width: max-content;
+}
+
+.navigation ul a {
+  color: #b3b3cc;
+  text-decoration: none;
+}
+
+/*Styling for home section Startly */
+
+.home-section {
+  min height: 200px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section h1 {
+  font-family: Aldrich;
+  font-size: 65pt;
+  margin-top: 5%;
+  padding-bottom: 13px;
+  color:#cc8800;
+  text-shadow: 10px 10px 15px #332200;
+}
+
+.home-section sub {
+  font-family: Special Elite;
+  font-size: 25pt;
+  position: inherit;
+  color: #660066;
+  line-height: 130%;
+}
+
+.home-section a {
+  text-decoration: none;
+  font-family: Arial;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 15px;
+  border: 2px solid #660022;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.home-section a:hover {
+  background-color: #660022;
+}
+
+.home-section a:unvisited {
+  color: white;
+}
+
+.home-section a:visited {
+  color:  #264d73;
+}
+
+/*Styling for blockquote one section*/
+
+.blockquote-one {
+  font-family: Tangerine;
+  font-size: 30pt;
+  min height: 100px;
+  padding: 5% 23% 1% 23%;
+  display: flex;
+  flex-direction: column;
+  line-height: 30pt;
+}
+
+.blockquote-one blockquote:before {
+  content: open-quote;
+}
+
+.blockquote-one blockquote:after {
+  content: close-quote;
+}
+
+.blockquote-one p {
+  padding-right: 0;
+  text-align: right;
+}
+
+.blockquote-one p:before{
+  content: "--";
+}
+
+/* *Styling for footer section */
+
+footer {
+  font-family: Arial;
+  background: lightgray;
+  height: 30px;
+  width: 100%;
+}
+
+
+/* footer {
+position:absolute;
+bottom:0;
+width:100%;
+height:60px;   /* Height of the footer */
