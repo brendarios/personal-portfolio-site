@@ -1,9 +1,15 @@
+
+/* This is the general styling for the webpage.
+The styling is on elements that will appear on every page. */
+
+
 html, body {
   height: 100%;
   margin: 0;
-  background: url("../img/backgrounds.jpg") no-repeat;
-  background-size: cover;
+  /* background: url("../img/backgrounds.jpg") no-repeat;
+  background-size: cover; */
 }
+
 
 #navigation-container {
   display: flex;

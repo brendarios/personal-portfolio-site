@@ -3,6 +3,8 @@ main {
   display: flex;
   justify-content: center;
   padding-top: 100px;
+  background: url("../img/backgrounds.jpg") no-repeat;
+  background-size: cover;
 }
 
 header {
