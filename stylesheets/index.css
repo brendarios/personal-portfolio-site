@@ -1,0 +1,37 @@
+main {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+header {
+  padding-left: 50pt;
+}
+
+header h1 {
+  font-family: Luckiest Guy;
+  font-size: 50pt;
+  padding-left: 40pt;
+}
+
+header h2 {
+  font-family: Special Elite;
+  font-size: 20pt;
+  padding-bottom: 30pt;
+}
+.read-more {
+  padding-left: 150pt;
+}
+
+.read-more a {
+  color: black;
+}
+header a {
+  font-family: Arial;
+  font-size: 20pt;
+  padding: 10px;
+  border: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
