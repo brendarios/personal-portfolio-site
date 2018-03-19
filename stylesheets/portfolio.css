@@ -1,0 +1,46 @@
+
+.projects-section {
+  margin-top: 0;
+  padding-top: 40px;
+  background-color: lightgray;
+  margin-bottom: -1.5%;
+}
+
+.projects-section ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 300px;
+  padding-top: 100px;
+  margin-right: 5%;
+  margin-left: 3%;
+}
+
+.projects-section img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  padding-bottom: 25px;
+}
+
+.projects-section p {
+  width: 400px;
+}
+
+.projects-section li {
+color: black;
+font-family: Indie Flower;
+text-align: center;
+}
+
+.projects-section a {
+color: #990073;
+font-family: Special Elite;
+text-decoration:underline;
+}
+
+.projects-section a:hover {
+background-color: #00cccc;
+}
