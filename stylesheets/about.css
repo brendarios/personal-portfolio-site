@@ -54,9 +54,9 @@ main {
 
 .pull-quote {
   width =85%;
-  margin-top: 50%;
+  margin-top: 20%;
 }
 
-#main-content .author {
+#quotes .author {
   text-align: right
 }
