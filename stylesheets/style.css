@@ -11,6 +11,7 @@ html, body {
 h1, h2 {
   font-family: Special Elite;
   text-align: center;
+  font-size: 35pt;
 }
 
 #navigation-container {
