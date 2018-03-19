@@ -6,30 +6,34 @@ The styling is on elements that will appear on every page. */
 html, body {
   height: 100%;
   margin: 0;
-  /* background: url("../img/backgrounds.jpg") no-repeat;
-  background-size: cover; */
 }
 
+h1, h2 {
+  font-family: Special Elite;
+  text-align: center;
+}
 
 #navigation-container {
   display: flex;
   justify-content:space-around;
   align-items: center;
-  background-color: #52527a;
-  font-family: Arial;
+  background-color: #322f30;
+  font-family: Special Elite;
+  font-size: 14pt;
   height: 50px;
 }
 
 a:link {
   text-decoration: none;
+  color: #00cccc;
 }
 
 a:visited {
-  color: white;
+  color: #00cccc;
 }
 
 a:unvisited {
-  color: lightgray;
+  color: #00cccc;;
 }
 
 main {
@@ -56,8 +60,8 @@ main {
 }
 
 .fa {
-  padding: 10px;
-  font-size: 30px;
+  padding: 15px;
+  font-size: 50px;
   width: 20px;
   text-align: center;
   text-decoration: none;
@@ -96,5 +100,5 @@ main {
   font-family: Arial;
   font-size: 10pt;
   text-align: center;
-  background-color: #90898c;
+  background-color: #29a3a3;
 }
