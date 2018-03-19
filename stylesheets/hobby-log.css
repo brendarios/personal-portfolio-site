@@ -1,0 +1,90 @@
+
+.blog-post {
+  background: lightgray;
+}
+
+#blog > p {
+  font-size: 16pt;
+  font-family: Special Elite;
+}
+
+.figures {
+    width: 100%;
+}
+
+#blog {
+  text-align: center;
+  padding-top: 5%;
+}
+
+article {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  display: block;
+  text-align:justify;
+  font-size: 14pt;
+  font-family: Arial;
+}
+
+article p {
+  align-self: center;
+}
+
+.images {
+  margin-top: 0;
+  font-family: Arial;
+  padding-top: 10px;
+  margin-right: 10%;
+  padding-bottom: 5px;
+}
+.images ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 200px;
+}
+
+.images ul a {
+  font-family: Special Elite;
+  color: #5900b3;
+  font-size: 15pt;
+}
+
+.images ul p {
+  font-family: Delius;
+  color: black;
+  font-size: 12pt;
+}
+
+
+.images img {
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 10%;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.images p {
+    width: 500px;
+}
+
+figure {
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+figure figcaption {
+    color: #666;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.articles article .top {
+  text-decoration: underline;
+  color: #5900b3;
+}

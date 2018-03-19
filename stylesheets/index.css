@@ -5,6 +5,7 @@ main {
   padding-top: 100px;
   background: url("../img/backgrounds.jpg") no-repeat;
   background-size: cover;
+
 }
 
 header {
@@ -38,7 +39,7 @@ header h2 {
 }
 
 header a {
-  font-family: Arial;
+  font-family: Special Elite;
   font-size: 15pt;
   padding: 10px;
   border: 10px;

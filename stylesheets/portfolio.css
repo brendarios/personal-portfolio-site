@@ -2,12 +2,13 @@
 main {
   background: url("../img/backgrounds.jpg") no-repeat;
   background-size: cover;
+  margin-bottom: -2%;
 }
 
 .projects-section {
   margin-top: 0;
   padding-top: 40px;
-  margin-bottom: -1.5%;
+  margin-bottom: 0;
 }
 
 .projects-section ul {
@@ -43,6 +44,7 @@ text-align: center;
 color: #990073;
 font-family: Special Elite;
 text-decoration:underline;
+font-size: 15pt;
 }
 
 .projects-section a:hover {
