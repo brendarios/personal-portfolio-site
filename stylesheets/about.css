@@ -1,0 +1,59 @@
+main {
+  margin-top: -3%;
+  background: url("../img/backgrounds.jpg") no-repeat;
+  background-size: cover;
+}
+
+.my-story {
+  font-family: Delius;
+  font-size: 15pt;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30pt;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-left: 2%;
+  border: outset;
+}
+
+#story h1 {
+  text-align: center;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+
+.my-story .first-letter {
+  font: 40pt Delius;
+  color: #a64dff;
+}
+
+#sidebar {
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 20%;
+  font-size: 20pt;
+  font-family: Indie Flower;
+  color: #330033;
+  padding-right: 2%;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-right: 10%;
+}
+
+.pull-quote {
+  width =85%;
+  margin-top: 50%;
+}
+
+#main-content .author {
+  text-align: right
+}
