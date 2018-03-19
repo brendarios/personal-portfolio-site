@@ -12,26 +12,34 @@ header {
 }
 
 header h1 {
-  font-family: Luckiest Guy;
+  font-family: Permanent Marker;
   font-size: 50pt;
-  padding-left: 40pt;
+  padding-left: 12pt;
+  color: #330033;
 }
 
 header h2 {
   font-family: Special Elite;
   font-size: 20pt;
   padding-bottom: 30pt;
+  color: #b36b00;
 }
 .read-more {
-  padding-left: 150pt;
+  padding-left: 180pt;
 }
 
 .read-more a {
-  color: black;
+  color: #330033;
 }
+
+.read-more a:hover {
+  background-color: #330033;
+  color: #b36b00;
+}
+
 header a {
   font-family: Arial;
-  font-size: 20pt;
+  font-size: 15pt;
   padding: 10px;
   border: 10px;
   border-radius: 10px;
